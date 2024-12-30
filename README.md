@@ -17,7 +17,7 @@ This approach is demonstrated on two datasets: **MNIST** and **Breast Cancer Det
 
 ## Experimental Results
 
-We tested both models for classification on the **MNIST dataset** and sklearn’s **Breast Cancer Detection dataset**. Both models were trained for **10 epochs** using the **Cross Entropy Loss** function. The results demonstrate the effectiveness of automata-driven pruning in reducing active connections while maintaining or improving accuracy.
+We tested both models for classification on the **MNIST dataset** and sklearn’s **Breast Cancer Detection dataset**. Both models were trained for **10 epochs** using the **Cross Entropy Loss** function. For Regression the **California Housing Dataset** was used with **10 epochs** and **MSE Loss** function. The results demonstrate the effectiveness of automata-driven pruning in reducing active connections while maintaining or improving accuracy.
 
 ### Observations:
 - On the **MNIST dataset**, a **24.89% decrease** in weights was observed.
